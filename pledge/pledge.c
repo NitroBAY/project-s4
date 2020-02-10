@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stddef.h>
 
 void pledge(size_t row, size_t col, int labyrinth[row][col]) {
     size_t robot_x = 0;
